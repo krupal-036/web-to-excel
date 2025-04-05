@@ -2,6 +2,7 @@ document.getElementById('email').addEventListener('input', function () {
     this.value = this.value.toLowerCase();
 });
 
+
 function toggleDarkMode() {
     var body = document.body;
     body.classList.toggle('dark-mode');
@@ -13,6 +14,7 @@ function toggleDarkMode() {
     }
 }
 
+
 window.onload = function () {
     var savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'dark') {
@@ -20,6 +22,7 @@ window.onload = function () {
         document.getElementById('darkModeToggle').checked = true;
     }
 };
+
 
 function validateForm() {
     var fullName = document.getElementById("name").value;
@@ -58,6 +61,7 @@ function validateForm() {
     alert("Successful entry");
     return true;
 }
+
 
 function copyMobile() {
     var mobile = document.getElementById("mobile").value;
