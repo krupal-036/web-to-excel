@@ -27,6 +27,12 @@ Before running this project, ensure you have the following:
 8. Share your Google Sheet with the **service account email** (from the JSON file) and grant it edit access.
 
 ### 2. Install Dependencies
+Clone the Repository
+```bash
+git clone https://github.com/krupal-036/web-to-excel.git
+cd web-to-excel
+```
+
 Run the following command to install required Python packages:
 ```bash
 pip install Flask gspread oauth2client
